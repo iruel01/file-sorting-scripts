@@ -1,5 +1,5 @@
 #!/bin/bash
-rm -rf small
+#rm -rf small
 mkdir small
 for i in "*"; do
 	if $(identify -format "%h" $i <= 720); then
